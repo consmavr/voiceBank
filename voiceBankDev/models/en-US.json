@@ -1,0 +1,271 @@
+{
+  "interactionModel": {
+      "languageModel": {
+          "invocationName": "voice bank",
+          "intents": [
+              {
+                  "name": "AMAZON.FallbackIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.CancelIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.HelpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.StopIntent",
+                  "samples": [
+                      "thanks",
+                      "never mind",
+                      "nevermind",
+                      "that's all",
+                      "Bye bye",
+                      "Bye"
+                  ]
+              },
+              {
+                  "name": "accountInfo",
+                  "slots": [],
+                  "samples": [
+                      "account information",
+                      "my account information",
+                      "my account info",
+                      "how much credit i have left",
+                      "my credit balance",
+                      "how much credit to i have",
+                      "my bank account balance",
+                      "bank account balance",
+                      "account balance",
+                      "what's left in my bank account",
+                      "what is left in my bank account",
+                      "what do i have in my bank account",
+                      "how is my bank account",
+                      "how much do i have in my bank account"
+                  ]
+              },
+              {
+                  "name": "cardInfoAbroad",
+                  "slots": [
+                      {
+                          "name": "cardType",
+                          "type": "cardType",
+                          "samples": [
+                              "a {cardType} card",
+                              "{cardType}",
+                              "it's a {cardType} card",
+                              "{cardType} card"
+                          ]
+                      }
+                  ],
+                  "samples": [
+                      "can i use my {cardType} card in other countries",
+                      "can i use my {cardType} abroad",
+                      "can i use my card in other countries",
+                      "can i use my card abroad"
+                  ]
+              },
+              {
+                  "name": "howCheckAccount",
+                  "slots": [],
+                  "samples": [
+                      "how to check the balance",
+                      "how to check my balance",
+                      "how do i check the balance on my saving account",
+                      "how do i check the balance on a saving account"
+                  ]
+              },
+              {
+                  "name": "howResetUsername",
+                  "slots": [],
+                  "samples": [
+                      "how to reset my username",
+                      "what is nesessary to reset my username",
+                      "what do i need to reset my username"
+                  ]
+              },
+              {
+                  "name": "AMAZON.MoreIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.NavigateHomeIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.NavigateSettingsIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.NextIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.PageUpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.PageDownIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.PreviousIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.ScrollRightIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.ScrollDownIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.ScrollLeftIntent",
+                  "samples": []
+              },
+              {
+                  "name": "AMAZON.ScrollUpIntent",
+                  "samples": []
+              },
+              {
+                  "name": "loginIntent",
+                  "slots": [],
+                  "samples": [
+                      "log me in",
+                      "let me login",
+                      "i want to log in",
+                      "I want to login",
+                      "login",
+                      "log in"
+                  ]
+              },
+              {
+                  "name": "FollowSocialMedia",
+                  "slots": [
+                      {
+                          "name": "socialMedia",
+                          "type": "AMAZON.SocialMediaPlatform",
+                          "samples": [
+                              "i prefer {socialMedia}",
+                              "tell me about {socialMedia}",
+                              "{socialMedia}"
+                          ]
+                      }
+                  ],
+                  "samples": [
+                      "where can i get latest news",
+                      "where can i follow you",
+                      "how can i stay up to date with {socialMedia}",
+                      "how can i stay up to date on {socialMedia}",
+                      "how can i stay up to date",
+                      "how can i follow ing on {socialMedia}",
+                      "how can i follow ing ",
+                      "how can i follow you",
+                      "how can i follow you on {socialMedia}"
+                  ]
+              }
+          ],
+          "types": [
+              {
+                  "name": "cardType",
+                  "values": [
+                      {
+                          "name": {
+                              "value": "debit"
+                          }
+                      },
+                      {
+                          "name": {
+                              "value": "credit"
+                          }
+                      }
+                  ]
+              }
+          ]
+      },
+      "dialog": {
+          "intents": [
+              {
+                  "name": "cardInfoAbroad",
+                  "confirmationRequired": false,
+                  "prompts": {},
+                  "slots": [
+                      {
+                          "name": "cardType",
+                          "type": "cardType",
+                          "confirmationRequired": false,
+                          "elicitationRequired": true,
+                          "prompts": {
+                              "elicitation": "Elicit.Slot.121460898941.1511635917920"
+                          }
+                      }
+                  ]
+              },
+              {
+                  "name": "FollowSocialMedia",
+                  "confirmationRequired": false,
+                  "prompts": {},
+                  "slots": [
+                      {
+                          "name": "socialMedia",
+                          "type": "AMAZON.SocialMediaPlatform",
+                          "confirmationRequired": false,
+                          "elicitationRequired": true,
+                          "prompts": {
+                              "elicitation": "Elicit.Slot.1141954389640.708867431100"
+                          }
+                      }
+                  ]
+              }
+          ]
+      },
+      "prompts": [
+          {
+              "id": "Elicit.Slot.121460898941.1511635917920",
+              "variations": [
+                  {
+                      "type": "PlainText",
+                      "value": "Is it a credit or a debit card?"
+                  }
+              ]
+          },
+          {
+              "id": "Elicit.Slot.417059475987.746765291209",
+              "variations": [
+                  {
+                      "type": "PlainText",
+                      "value": "Where is the appointment?"
+                  },
+                  {
+                      "type": "PlainText",
+                      "value": "Can you tell me the address?"
+                  },
+                  {
+                      "type": "PlainText",
+                      "value": "What is the address?"
+                  }
+              ]
+          },
+          {
+              "id": "Elicit.Slot.1141954389640.708867431100",
+              "variations": [
+                  {
+                      "type": "PlainText",
+                      "value": "which social media platform do you prefer?"
+                  },
+                  {
+                      "type": "PlainText",
+                      "value": "Which social media is your favourite?"
+                  },
+                  {
+                      "type": "PlainText",
+                      "value": "What is your favourite platform?"
+                  }
+              ]
+          }
+      ]
+  }
+}
