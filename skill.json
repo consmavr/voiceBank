@@ -1,0 +1,49 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "voice bank app",
+          "examplePhrases": [
+            "Alexa, open orange voice bank",
+            "Alexa, ask orange voice bank for my account balance",
+            "Alexa, ask orange voice bank what do i need to reset my username"
+          ],
+          "keywords": [
+            "orange",
+            "voice",
+            "bank"
+          ],
+          "name": "voiceBankDev",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/36fd/02f7210c700d4875b250018c36fce101/APP_ICON?versionId=pyPR6xnOikH._OHIvTQZxFaZr2sAGRF0&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1527839601&Signature=d4fAja98iopSuNrmFiWnl%2FQQZBQ%3D",
+          "description": "implements voice app for bank",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/a3cb/70cf134017664f4c8ba2a810eec6fb79/APP_ICON_LARGE?versionId=J3PrrJYOa6PMU8eXIrWRvnfPlbmz.tPR&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1527839601&Signature=x%2FjQ%2FXUNsv9g9%2BGk4GmJOxIQcRk%3D"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Follow test commands",
+      "category": "BUSINESS_AND_FINANCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda\\custom"
+        },
+        "interfaces": [
+          {
+            "type": "RENDER_TEMPLATE"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

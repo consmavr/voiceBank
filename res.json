@@ -1,0 +1,115 @@
+{
+    "id": "4293d7c7-e04e-41f2-9d2c-bc876f3fa38f",
+    "status": "SUCCESSFUL",
+    "result": {
+      "skillExecutionInfo": {
+        "invocationRequest": {
+          "endpoint": "arn:aws:lambda:us-east-1:976766859229:function:voiceBankdev",
+          "body": {
+            "version": "1.0",
+            "session": {
+              "new": false,
+              "sessionId": "amzn1.echo-api.session.c702144d-7cf5-4633-a39b-cf393e60b109",
+              "application": {
+                "applicationId": "amzn1.ask.skill.f5e7f4e5-d3b6-4d57-b600-249851fb35cc"
+              },
+              "attributes": {
+                "visits": 109,
+                "balance": 3080,
+                "cardType": "none",
+                "timeStampp": "2018-05-31T12:48:47Z"
+              },
+              "user": {
+                "userId": "amzn1.ask.account.AGKNOTBSEPC5IW7ZBQ44SKIXSCEJGACDASNQPOEYDWFJLI6LWUWDCCEHWUECCPYEKYSHFYOQQSNPLNUUGZXD4TSBWZDOZXPKEQY5KWWUMPAQES3P65HIGKJ4NMYYQOPGTLPQAGX6XI6E2VAYBN74G2AAYQPS67LBJ4FANA2K2GZKGTT2HVNAX37T2IAZO5VRNUXR6GYRALRMMJA",
+                "accessToken": "Atza|IwEBIL6n5wuP-Zz9JjGjA2j894pmpLMLEO31ER98N3OMRsuEAclmRQuaaaoqRYza3g3Xp9WNG7ksaCsV24W8ZluDRo2hiaOMkAkqi_opArSCoXqjQ4T44Ur5KS8C6N9o4SCyz-8vceLvZPz6gT-Dsz7wwT_tH_cmj9mtOOyANN89IdyzR9r9fgbVS9LmwLqg913L11kt4puUolEh1IX9v2B1cxFydF4DVOLxlmq6BageVEqENCpMMeqqyRahHsJtlC84r0WImJSh2uErqJnmAQgOJMYDoW5PBaT7neZZG4A-ektQ--w9xxuriu0EwU9m8TMZ8MAo8XlG1F1-Vf0f1qw-CTvjPVmQEHR3SSHG5b8zXiZMWbjvcTKzeVgSOjmJ1R-9fKDFY8WvwbHr5XpKUyw1lQVzq80e5k1H76g4AqG_p1bi2jsDLuAJEhyLnB9P5BRuLBIuQSkhepmrFy-ANw246BMKkwXHaDFUkg-HBWD6X6anoxS_p8aez9t7TLPts6o3CUUXJ0NFayk48ecNJcpLH5g1"
+              }
+            },
+            "context": {
+              "Display": {},
+              "System": {
+                "application": {
+                  "applicationId": "amzn1.ask.skill.f5e7f4e5-d3b6-4d57-b600-249851fb35cc"
+                },
+                "user": {
+                  "userId": "amzn1.ask.account.AGKNOTBSEPC5IW7ZBQ44SKIXSCEJGACDASNQPOEYDWFJLI6LWUWDCCEHWUECCPYEKYSHFYOQQSNPLNUUGZXD4TSBWZDOZXPKEQY5KWWUMPAQES3P65HIGKJ4NMYYQOPGTLPQAGX6XI6E2VAYBN74G2AAYQPS67LBJ4FANA2K2GZKGTT2HVNAX37T2IAZO5VRNUXR6GYRALRMMJA",
+                  "accessToken": "Atza|IwEBIL6n5wuP-Zz9JjGjA2j894pmpLMLEO31ER98N3OMRsuEAclmRQuaaaoqRYza3g3Xp9WNG7ksaCsV24W8ZluDRo2hiaOMkAkqi_opArSCoXqjQ4T44Ur5KS8C6N9o4SCyz-8vceLvZPz6gT-Dsz7wwT_tH_cmj9mtOOyANN89IdyzR9r9fgbVS9LmwLqg913L11kt4puUolEh1IX9v2B1cxFydF4DVOLxlmq6BageVEqENCpMMeqqyRahHsJtlC84r0WImJSh2uErqJnmAQgOJMYDoW5PBaT7neZZG4A-ektQ--w9xxuriu0EwU9m8TMZ8MAo8XlG1F1-Vf0f1qw-CTvjPVmQEHR3SSHG5b8zXiZMWbjvcTKzeVgSOjmJ1R-9fKDFY8WvwbHr5XpKUyw1lQVzq80e5k1H76g4AqG_p1bi2jsDLuAJEhyLnB9P5BRuLBIuQSkhepmrFy-ANw246BMKkwXHaDFUkg-HBWD6X6anoxS_p8aez9t7TLPts6o3CUUXJ0NFayk48ecNJcpLH5g1"
+                },
+                "device": {
+                  "deviceId": "amzn1.ask.device.AGKMYDDZQRYPZA7PFRDZSRYWFUJDU3FRE3H5X2DZ2JGPXAI4MKLLXBHSG4DM3OZ2X4I4TRVSQJ4CFOB7IJN37XOM2O2RXROCNQH7CPPOQAS6X75IXM3UGPKIDQNU6HMH4PO6QCEBDBNQ3AKINXW6TIHKQ53Q",
+                  "supportedInterfaces": {
+                    "AudioPlayer": {},
+                    "Display": {
+                      "templateVersion": "1.0",
+                      "markupVersion": "1.0"
+                    }
+                  }
+                },
+                "apiEndpoint": "https://api.eu.amazonalexa.com",
+                "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLmY1ZTdmNGU1LWQzYjYtNGQ1Ny1iNjAwLTI0OTg1MWZiMzVjYyIsImV4cCI6MTUyNzc3NDU0NCwiaWF0IjoxNTI3NzcwOTQ0LCJuYmYiOjE1Mjc3NzA5NDQsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUdLTVlERFpRUllQWkE3UEZSRFpTUllXRlVKRFUzRlJFM0g1WDJEWjJKR1BYQUk0TUtMTFhCSFNHNERNM09aMlg0STRUUlZTUUo0Q0ZPQjdJSk4zN1hPTTJPMlJYUk9DTlFIN0NQUE9RQVM2WDc1SVhNM1VHUEtJRFFOVTZITUg0UE82UUNFQkRCTlEzQUtJTlhXNlRJSEtRNTNRIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUdLTk9UQlNFUEM1SVc3WkJRNDRTS0lYU0NFSkdBQ0RBU05RUE9FWURXRkpMSTZMV1VXRENDRUhXVUVDQ1BZRUtZU0hGWU9RUVNOUExOVVVHWlhENFRTQldaRE9aWFBLRVFZNUtXV1VNUEFRRVMzUDY1SElHS0o0Tk1ZWVFPUEdUTFBRQUdYNlhJNkUyVkFZQk43NEcyQUFZUVBTNjdMQko0RkFOQTJLMkdaS0dUVDJIVk5BWDM3VDJJQVpPNVZSTlVYUjZHWVJBTFJNTUpBIn19.lr6hpUIIT9CHjOwEeqSQRP-x92H4ig9O-o6lFT2EGsZ6coKSzAT2uvgneBNoH0uS-nAYhm0D7zkJhtnntI8fZHQJLoRdPRw0JyU5KDkdjIZdFamS3ZAbp69IR4Ky_RdLdMZgygUqSAX2n0Ah9LXgLDiq4idKa2FIwK7VfzL7G2ERzNR0qVt6X3xmj0Af6vwHEQYdR7B6SimPdI-4FPc9Fgwsf4XYkhcsfYIhIB9VM54NUzZGDkcZ6SvDC3PSRSsJhhL8VKE6QnM-5KpVVQmm5PpR7nOmnrcE6cvgfMLwpnDYRzMq5TPMp7IAZuajEr-bGBZz_h4YWFVfKlZmduy4bQ"
+              }
+            },
+            "request": {
+              "type": "IntentRequest",
+              "requestId": "amzn1.echo-api.request.94d98517-ce71-433d-95c3-9f627027a6cf",
+              "timestamp": "2018-05-31T12:49:04Z",
+              "locale": "en-US",
+              "intent": {
+                "name": "cardInfoAbroad",
+                "confirmationStatus": "NONE",
+                "slots": {
+                  "cardType": {
+                    "name": "cardType",
+                    "value": "debit",
+                    "resolutions": {
+                      "resolutionsPerAuthority": [
+                        {
+                          "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.f5e7f4e5-d3b6-4d57-b600-249851fb35cc.cardType",
+                          "status": {
+                            "code": "ER_SUCCESS_MATCH"
+                          },
+                          "values": [
+                            {
+                              "value": {
+                                "name": "debit",
+                                "id": "d2f9212ec793c0cbc8240ae06a04eab7"
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "confirmationStatus": "NONE"
+                  }
+                }
+              },
+              "dialogState": "IN_PROGRESS"
+            }
+          }
+        },
+        "invocationResponse": {
+          "body": {
+            "version": "1.0",
+            "response": {
+              "directives": [
+                {
+                  "type": "Dialog.Delegate"
+                }
+              ],
+              "shouldEndSession": false
+            },
+            "sessionAttributes": {
+              "visits": 109,
+              "balance": 3080,
+              "cardType": "none",
+              "timeStampp": "2018-05-31T12:48:47Z"
+            },
+            "userAgent": "ask-nodejs/1.0.25 Node/v8.10.0"
+          }
+        },
+        "metrics": {
+          "skillExecutionTimeInMilliseconds": 323
+        }
+      }
+    }
+  }
+  
